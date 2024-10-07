@@ -1,0 +1,57 @@
+/* From Uiverse.io by adamgiebl */
+.dots-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: lightgray;
+  padding: 5px;
+  height: 100%;
+  width: 15%;
+  margin: 7px 0px 0px 10px;
+  border-radius: 15px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin-right: 7px;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.dot:last-child {
+  margin-right: 0;
+}
+
+.dot:nth-child(1) {
+  animation-delay: -0.3s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.1s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    background-color: #bbbbbb;
+    box-shadow: #bbbbbb;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #bbbbbb;
+    box-shadow: #bbbbbb;
+  }
+
+  100% {
+    transform: scale(0.8);
+    background-color: #bbbbbb;
+    box-shadow: #bbbbbb;
+  }
+}

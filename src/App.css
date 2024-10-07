@@ -1,0 +1,87 @@
+body,
+.App {
+  background: url(https://media.istockphoto.com/id/1390481905/photo/multi-factor-authentication-user-login-cybersecurity-privacy-protect-data-internet-network.jpg?s=2048x2048&w=is&k=20&c=tSJGBnNxaVG2Jdi7maosdNbSupOhD30jUPnB0aVVi60=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: -16px;
+}
+
+.dropdown-content li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.borderImg {
+  border: 1px solid black;
+}
+
+.scrollBarEdit::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollBarEdit::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: white;
+}
+
+.scrollBarEdit::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+.scrolls {
+  overflow-y: scroll;
+}
+
+.scrolls-inner {
+  transform: rotate(0deg);
+}
+
+
+
+.scroller::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* .scroller::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: white;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+} */
